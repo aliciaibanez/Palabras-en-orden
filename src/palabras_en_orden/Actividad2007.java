@@ -16,6 +16,7 @@ public class Actividad2007 {
 		for (int j = palabras.size() - 1; j >= 0; j--) {
 			
 			String palabra = palabras.get(j);
+			
 			boolean insertada = false;
 			
 			for (int i = 0; i < listaOrdenada.size(); i++) {
